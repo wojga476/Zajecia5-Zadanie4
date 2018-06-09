@@ -37,6 +37,8 @@ public class wspPkt {
                 break;
             }
         }
-
+        if (wspX == 0 && wspY == 0) {
+            System.out.printf(("Punkt (%d,%d) leży na początku układu współrzędnych."), wspX, wspY);
+        }
     }
 }
